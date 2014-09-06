@@ -1,82 +1,82 @@
-  // Slider
-    #slider.fullSection
-      .container
+// Slider
+#slider.fullSection
+  .container
 
-        // fullscreen-slider
-        #fullscreen-slider.carousel.slide.wow.bounceIn.showdelay4(data-ride='carousel')
-          // Indicators
-          ol.carousel-indicators
-            li.active(data-target='#fullscreen-slider', data-slide-to='0')
-            li(data-target='#fullscreen-slider', data-slide-to='1')
-            li(data-target='#fullscreen-slider', data-slide-to='2')
+    // fullscreen-slider
+    #fullscreen-slider.carousel.slide.wow.bounceIn.showdelay4(data-ride='carousel')
+      // Indicators
+      ol.carousel-indicators
+        li.active(data-target='#fullscreen-slider', data-slide-to='0')
+        li(data-target='#fullscreen-slider', data-slide-to='1')
+        li(data-target='#fullscreen-slider', data-slide-to='2')
 
-          // Wrapper for slides
-          .carousel-inner
-            .item.active
-              .slider-caption
-                i.fa.fa-paper-plane-o
-                h2 Welcome Howdy!
-                p
-                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper.
-                .page-scroll
-                  a.btn.btn-custom.btn-lg(href='#icon-box') Learn More
-            .item
-              .slider-caption
-                i.fa.fa-life-ring
-                h2 Full Support
-                p
-                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper.
-                a.btn.btn-custom.btn-lg(href='#', data-toggle='modal', data-target='#slider-modal') Learn More
-            .item
-              .slider-caption
-                i.fa.fa-video-camera
-                h2 Responsive Video
-                p
-                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper.
-                a.btn.btn-custom.btn-lg(href='#', data-toggle='modal', data-target='#video-modal') Learn More
+      // Wrapper for slides
+      .carousel-inner
+        .item.active
+          .slider-caption
+            i.fa.fa-paper-plane-o
+            h2 Welcome Howdy!
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper.
+            .page-scroll
+              a.btn.btn-custom.btn-lg(href='#icon-box') Learn More
+        .item
+          .slider-caption
+            i.fa.fa-life-ring
+            h2 Full Support
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper.
+            a.btn.btn-custom.btn-lg(href='#', data-toggle='modal', data-target='#slider-modal') Learn More
+        .item
+          .slider-caption
+            i.fa.fa-video-camera
+            h2 Responsive Video
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper.
+            a.btn.btn-custom.btn-lg(href='#', data-toggle='modal', data-target='#video-modal') Learn More
 
-          // Controls 
-          a.left.carousel-control(href='#fullscreen-slider', role='button', data-slide='prev')
-            span.glyphicon.glyphicon-chevron-left
-          a.right.carousel-control(href='#fullscreen-slider', role='button', data-slide='next')
-            span.glyphicon.glyphicon-chevron-right
-        // fullscreen-slider 
+      // Controls 
+      a.left.carousel-control(href='#fullscreen-slider', role='button', data-slide='prev')
+        span.glyphicon.glyphicon-chevron-left
+      a.right.carousel-control(href='#fullscreen-slider', role='button', data-slide='next')
+        span.glyphicon.glyphicon-chevron-right
+    // fullscreen-slider 
 
-        // slider-modal 
-        #slider-modal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel1', aria-hidden='true')
-          .modal-dialog.modal-lg
-            .modal-content
-              .modal-header
-                button.close(type='button', data-dismiss='modal')
-                  span(aria-hidden='true') ×
-                  span.sr-only Close
-                h2#myModalLabel1.modal-title Slider Details
-              .modal-body
-                p
-                  img.img-responsive.pull-left(src='images/img1.jpg', alt='')
-                  | about section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper. Fusce ut eros quis metus ullamcorper commodo ut sit amet nisi. Cras mattis enim eu urna tristique posuere. In vitae adipiscing nulla. Phasellus purus eros, aliquam ac urna eget, dictum consequat turpis. Aliquam hendrerit odio ut placerat pharetra. Etiam quis auctor sapien. Praesent sed consectetur lorem, et gravida purus.
-                  | about section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper. Fusce ut eros quis metus ullamcorper commodo ut sit amet nisi. Cras mattis enim eu urna tristique posuere. In vitae adipiscing nulla. Phasellus purus eros, aliquam ac urna eget, dictum consequat turpis. Aliquam hendrerit odio ut placerat pharetra. Etiam quis auctor sapien. Praesent sed consectetur lorem, et gravida purus.
-                hr
-                p
-                  img.img-responsive.pull-right(src='images/img1.jpg', alt='')
-                  | about section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper. Fusce ut eros quis metus ullamcorper commodo ut sit amet nisi. Cras mattis enim eu urna tristique posuere. In vitae adipiscing nulla. Phasellus purus eros, aliquam ac urna eget, dictum consequat turpis. Aliquam hendrerit odio ut placerat pharetra. Etiam quis auctor sapien. Praesent sed consectetur lorem, et gravida purus.
-                  | about section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper. Fusce ut eros quis metus ullamcorper commodo ut sit amet nisi. Cras mattis enim eu urna tristique posuere. In vitae adipiscing nulla. Phasellus purus eros, aliquam ac urna eget, dictum consequat turpis. Aliquam hendrerit odio ut placerat pharetra. Etiam quis auctor sapien. Praesent sed consectetur lorem, et gravida purus.
-        
-        // video-modal
-        #video-modal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel2', aria-hidden='true')
-          .modal-dialog.modal-lg
-            .modal-content
-              .modal-header
-                button.close(type='button', data-dismiss='modal')
-                  span(aria-hidden='true') ×
-                  span.sr-only Close
-                h2#myModalLabel2.modal-title Slider Details
-              .modal-body
+    // slider-modal 
+    #slider-modal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel1', aria-hidden='true')
+      .modal-dialog.modal-lg
+        .modal-content
+          .modal-header
+            button.close(type='button', data-dismiss='modal')
+              span(aria-hidden='true') ×
+              span.sr-only Close
+            h2#myModalLabel1.modal-title Slider Details
+          .modal-body
+            p
+              img.img-responsive.pull-left(src='images/img1.jpg', alt='')
+              | about section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper. Fusce ut eros quis metus ullamcorper commodo ut sit amet nisi. Cras mattis enim eu urna tristique posuere. In vitae adipiscing nulla. Phasellus purus eros, aliquam ac urna eget, dictum consequat turpis. Aliquam hendrerit odio ut placerat pharetra. Etiam quis auctor sapien. Praesent sed consectetur lorem, et gravida purus.
+              | about section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper. Fusce ut eros quis metus ullamcorper commodo ut sit amet nisi. Cras mattis enim eu urna tristique posuere. In vitae adipiscing nulla. Phasellus purus eros, aliquam ac urna eget, dictum consequat turpis. Aliquam hendrerit odio ut placerat pharetra. Etiam quis auctor sapien. Praesent sed consectetur lorem, et gravida purus.
+            hr
+            p
+              img.img-responsive.pull-right(src='images/img1.jpg', alt='')
+              | about section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper. Fusce ut eros quis metus ullamcorper commodo ut sit amet nisi. Cras mattis enim eu urna tristique posuere. In vitae adipiscing nulla. Phasellus purus eros, aliquam ac urna eget, dictum consequat turpis. Aliquam hendrerit odio ut placerat pharetra. Etiam quis auctor sapien. Praesent sed consectetur lorem, et gravida purus.
+              | about section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper. Fusce ut eros quis metus ullamcorper commodo ut sit amet nisi. Cras mattis enim eu urna tristique posuere. In vitae adipiscing nulla. Phasellus purus eros, aliquam ac urna eget, dictum consequat turpis. Aliquam hendrerit odio ut placerat pharetra. Etiam quis auctor sapien. Praesent sed consectetur lorem, et gravida purus.
+    
+    // video-modal
+    #video-modal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel2', aria-hidden='true')
+      .modal-dialog.modal-lg
+        .modal-content
+          .modal-header
+            button.close(type='button', data-dismiss='modal')
+              span(aria-hidden='true') ×
+              span.sr-only Close
+            h2#myModalLabel2.modal-title Slider Details
+          .modal-body
 
-                // 16:9 aspect ratio 
-                .embed-responsive.embed-responsive-16by9
-                  iframe.embed-responsive-item(src='//www.youtube.com/embed/49cMKsiSU1k')
-                br
-                p
-                  | about section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper. Fusce ut eros quis metus ullamcorper commodo ut sit amet nisi. Cras mattis enim eu urna tristique posuere. In vitae adipiscing nulla. Phasellus purus eros, aliquam ac urna eget, dictum consequat turpis. Aliquam hendrerit odio ut placerat pharetra. Etiam quis auctor sapien. Praesent sed consectetur lorem, et gravida purus.
-                  | about section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper. Fusce ut eros quis metus ullamcorper commodo ut sit amet nisi. Cras mattis enim eu urna tristique posuere. In vitae adipiscing nulla. Phasellus purus eros, aliquam ac urna eget, dictum consequat turpis. Aliquam hendrerit odio ut placerat pharetra. Etiam quis auctor sapien. Praesent sed consectetur lorem, et gravida purus.
+            // 16:9 aspect ratio 
+            .embed-responsive.embed-responsive-16by9
+              iframe.embed-responsive-item(src='//www.youtube.com/embed/49cMKsiSU1k')
+            br
+            p
+              | about section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper. Fusce ut eros quis metus ullamcorper commodo ut sit amet nisi. Cras mattis enim eu urna tristique posuere. In vitae adipiscing nulla. Phasellus purus eros, aliquam ac urna eget, dictum consequat turpis. Aliquam hendrerit odio ut placerat pharetra. Etiam quis auctor sapien. Praesent sed consectetur lorem, et gravida purus.
+              | about section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim elit hendrerit. Quisque tempus arcu vulputate metus convallis elementum. Aenean rhoncus rutrum quam ut semper. Fusce ut eros quis metus ullamcorper commodo ut sit amet nisi. Cras mattis enim eu urna tristique posuere. In vitae adipiscing nulla. Phasellus purus eros, aliquam ac urna eget, dictum consequat turpis. Aliquam hendrerit odio ut placerat pharetra. Etiam quis auctor sapien. Praesent sed consectetur lorem, et gravida purus.
